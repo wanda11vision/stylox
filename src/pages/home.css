@@ -1,5 +1,11 @@
-.hmain{
-    height: 400vh;
+.main {
+    height: 100vh;
+    width: 100%;
+}
+
+
+.hmain {
+    height: 400%;
     width: 100%;
     /* border: 2px solid red; */
     display: flex;
@@ -9,8 +15,8 @@
     background-color: rgba(0, 0, 0, 0.918);
 }
 
-.hd1{
-    height: 25%;
+.hd1 {
+    height: 20%;
     width: 95%;
     /* border: 2px solid red; */
     background-image: url("https://c1.wallpaperflare.com/preview/786/944/918/fashionable-girl-in-glasses-in-the-black-pants.jpg");
@@ -21,27 +27,33 @@
     flex-direction: column;
 }
 
-.hdh1{
+.hdh1 {
     color: aliceblue;
     width: 80%;
-    border: 10px solid transparent;
+    /* border: 2px solid green; */
     font-size: 60px;
     display: flex;
     justify-content: end;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     /* font-family: sans-serif typeface; */
 }
-.hdh2{
+
+.hdh2 {
     color: aliceblue;
     width: 96%;
     /* border: 2px solid red; */
     font-size: 60px;
     display: flex;
     justify-content: end;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.hd2{
+
+
+
+
+
+.hd2 {
     height: 7%;
     width: 100%;
     border: 10px solid transparent;
@@ -49,9 +61,10 @@
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.153);
     text-align: center;
+    /* border: 2px solid yellow; */
 }
 
-.hd21{
+.hd21 {
     height: 100%;
     width: 20%;
     background-color: rgba(0, 0, 0, 0.918);
@@ -60,17 +73,23 @@
     /* border: 2px solid green; */
 }
 
-.hd3{
+
+
+
+
+
+
+.hd3 {
     height: 4%;
     width: 100%;
     border: 10px solid transparent;
     display: flex;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.153);
-    
+    /* border: 2px solid red; */
 }
 
-.hd31{
+.hd31 {
     height: 100%;
     width: 20%;
     background-color: rgba(0, 0, 0, 0.918);
@@ -82,42 +101,49 @@
     /* border: 2px solid green; */
 }
 
-.hd31 div{
+.hd31 div {
     /* border: 2px solid blue; */
     height: 10%;
     width: 30%;
-    
+
 }
 
 
-.hd4{
+
+
+
+.hd4 {
     height: 20%;
     width: 95%;
     /* border: 2px solid blue; */
     display: flex;
     justify-content: space-between;
 }
-.hd41{
+
+.hd4txt {
     height: 100%;
-     width: 57%;
+    width: 49%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     color: rgba(255, 255, 255, 0.636);
-    background-color:rgba(0, 0, 0, 0.918) ;
+    background-color: rgba(0, 0, 0, 0.918);
     border-radius: 10px;
     /* border: 2px solid pink; */
 }
-.hd411{
+
+.hd411 {
     width: 90%;
-    /* border: 2px solid pink; */
+    /* border: 2px solid yellow; */
 }
-.hd411 h1{
-    font-size: 60px;
+
+.hd411 h1 {
+    font-size: 54px;
     /* border: 2px solid pink; */
 
 }
+
 .hd412 {
     display: flex;
     align-items: center;
@@ -127,31 +153,188 @@
     /* border: 2px solid green; */
 }
 
-.hd412 p{
+.hd412 p {
     width: 45%;
 }
 
 
-.hd42 {
+.hd4img {
     height: 100%;
-    width: 42%;
-    /* border: 2px solid green; */
-    /* background-image: url("../bag\ women.png"); */
-    background-color:rgba(0, 0, 0, 0.918) ;
+    width: 49%;
+    /* border: 2px solid yellow; */
+    background-image: url("./bag\ women.png");
+    background-color: rgba(0, 0, 0, 0.918);
     background-size: 100% 100%;
     border-radius: 10px;
 }
 
 
 
-.hd5{
+
+
+
+.hd5 {
     height: 20%;
-    width: 100%;
-    /* border: 2px solid blue; */
+    width: 95%;
+    /* border: 2px solid pink; */
+    color: rgba(255, 255, 255, 0.636);
 }
 
-.hd6{
-    height: 20%;
+.hd5our {
+    height: 10%;
     width: 100%;
     /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+.hd51 {
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.hd5img {
+    height: 100%;
+    width: 49%;
+    border-radius: 10px;
+    /* border: 2px solid yellow; */
+    background-image: url("https://media.licdn.com/dms/image/v2/D4E12AQEnjHOujR5Ptw/article-cover_image-shrink_720_1280/B4EZamSX_gHIAM-/0/1746546557205?e=2147483647&v=beta&t=cH60Mo-xJs0wKv6V2yUkbkJOWMEZ00mqF5DSGT2D1-c");
+    background-size: 100% 100%;
+}
+
+.hd5txt {
+    height: 100%;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+}
+
+.hd5txt1 {
+    /* border: 2px solid yellow; */
+    border-radius: 10px;
+    height: 49%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.918);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hd5txt1 p {
+    /* border: 2px solid yellow; */
+    height: 50%;
+    width: 90%;
+}
+
+.hd6 {
+    height: 18%;
+    width: 95%;
+    /* border: 2px solid blue; */
+    color: rgba(255, 255, 255, 0.636);
+}
+
+.hd61 {
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.hd6img {
+    height: 100%;
+    width: 49%;
+    border-radius: 10px;
+    /* border: 2px solid yellow; */
+    background-image: url("./statue.png");
+    background-size: 100% 100%;
+}
+
+
+
+@media (max-width:1200px){
+    .hmain{
+        height: 400%;
+        width: 100%;
+    }
+
+    .hd1{
+        height: 12%;
+    }
+    .hdh1{
+        width: 75%;
+        font-size: 30px;
+    }
+    .hdh2{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .hd2{
+        height: 5%;
+    }
+    .hd21{
+        font-size: 9px;
+    }
+    .hd3{
+        height: 2%;
+    }
+    .hd31{
+        font-size: 7px;
+    }
+
+    .hd4{
+        flex-direction: column-reverse;
+        height: 25%;
+    }
+
+    .hd4txt{
+        width: 100%;
+        font-size: 10px;
+    }
+    .hd411 h1 {
+        font-size: 30px;
+    }
+
+    .hd4img{
+        height: 100%;
+        width: 100%;
+    }
+    .hd5{
+        height: 25%;
+    }
+    .hd5our{
+        font-size: 10px;
+    }
+    .hd51{
+        flex-direction: column;
+    }
+
+    .hd5txt{
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .hd5img{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .hd6{
+        height: 25%;
+    }
+     .hd61{
+        flex-direction: column-reverse;
+    }
+     .hd6img{
+        height: 100%;
+        width: 100%;
+    }
+
 }
