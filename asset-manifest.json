@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/stylox/static/css/main.3eafd325.css",
+    "main.css": "/stylox/static/css/main.e734c703.css",
     "main.js": "/stylox/static/js/main.4562a35a.js",
     "static/js/453.1589b360.chunk.js": "/stylox/static/js/453.1589b360.chunk.js",
     "static/media/statue.png": "/stylox/static/media/statue.ca401cb3d940da6cf6a9.png",
     "static/media/bag women.png": "/stylox/static/media/bag women.7242e1b781357e18dcb5.png",
     "index.html": "/stylox/index.html",
-    "main.3eafd325.css.map": "/stylox/static/css/main.3eafd325.css.map",
+    "main.e734c703.css.map": "/stylox/static/css/main.e734c703.css.map",
     "main.4562a35a.js.map": "/stylox/static/js/main.4562a35a.js.map",
     "453.1589b360.chunk.js.map": "/stylox/static/js/453.1589b360.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3eafd325.css",
+    "static/css/main.e734c703.css",
     "static/js/main.4562a35a.js"
   ]
 }
